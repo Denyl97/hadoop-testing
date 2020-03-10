@@ -37,7 +37,10 @@ chmod u+x start-data.sh
 ```
 
 Luego, para ejecutar cada query, se debe colocar en la linea de comandos lo siguiente:
+
+```
 pig -x mapreduce query1.pig
+```
 
 donde query1.pig es el nombre del archivo que contiene el query respectivo
 La lista de todos los queries con sus resultados y el nombre de cada columna de vgsales.csv 
